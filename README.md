@@ -42,6 +42,7 @@ Host: 127.0.0.1
 ## 목표
 - [ ] 만료 시간 설정
 - [ ] 국가 구분
+- [ ] 초당 요청 횟수 제한 (과부하 방지)
 
 ## Reference
 - [XOPS用サーバーリスト配信プログラム](https://gist.github.com/salty-godzilla/da8cc0efbe3eb0592522d3cec0c8bd15 "XOPS用サーバーリスト配信プログラム")
