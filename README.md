@@ -1,8 +1,10 @@
-# X Operation Server List implemented in a C# Console App
+# X Operation Server List implemented in a Node.js
 
-[http://cgil.plala.or.jp/](http://cgil.plala.or.jp/) 도메인 종료로 인해 서버 리스트의 기능을 할 수 없게된 게임을 위해 만든 C# 콘솔 앱 기반 서버 리스트 서비스입니다.
+도메인 종료로 인해 서버 리스트의 기능을 할 수 없게된 게임을 위해 만든 Node.js 기반 서버 리스트 서비스입니다.
 
-Reference의 링크 속 코드는 PHP로 작성되었으며, 웹 서버 환경에 크게 의존하는 구조입니다. 반면, 본 프로젝트는 별도의 웹 서버 없이 직접 HTTP 요청을 처리하여 보다 안정적이고 효율적인 서버 리스트 서비스를 제공합니다.
+본 프로젝트는 X Operations 게임의 서버 리스트 기능을 Node.js 기반으로 재구현한 서비스입니다. 기존 [http://cgil.plala.or.jp/](http://cgil.plala.or.jp/) 도메인이 종료됨에 따라 게임 내 서버 리스트 기능이 더 이상 작동하지 않게 되어, 이를 대체하기 위해 개발되었습니다.
+
+기존 PHP 기반의 구현은 웹 서버 환경(Apache 등)에 의존하고 있었고, 유지 보수나 배포에 제약이 많았습니다. 반면 본 프로젝트는 Node.js의 특성을 활용하여 웹 서버 없이도 자체적으로 HTTP 요청을 처리하며, 경량이고 유연한 구조로 구현되었습니다.
 
 ## 서버-클라이언트 간 흐름 및 처리 방식
 ### 1. 클라이언트
